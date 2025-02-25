@@ -20,7 +20,7 @@
     npx flowise start
     ```
 
-3. 打开[http://localhost:3000](http://localhost:3000)
+3. 打开[https://flowise-sharpbot-ui-git-main-stagging.vercel.app](https://flowise-sharpbot-ui-git-main-stagging.vercel.app)
 
 ## 🔒 身份验证
 

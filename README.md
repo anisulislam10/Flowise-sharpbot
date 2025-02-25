@@ -36,7 +36,7 @@ Download and Install [NodeJS](https://nodejs.org/en/download) >= 18.15.0
     npx flowise start --FLOWISE_USERNAME=user --FLOWISE_PASSWORD=1234
     ```
 
-3. Open [http://localhost:3000](http://localhost:3000)
+3. Open [https://flowise-sharpbot-ui-git-main-stagging.vercel.app](https://flowise-sharpbot-ui-git-main-stagging.vercel.app)
 
 ## 🐳 Docker
 
@@ -46,7 +46,7 @@ Download and Install [NodeJS](https://nodejs.org/en/download) >= 18.15.0
 2. Go to `docker` folder at the root of the project
 3. Copy `.env.example` file, paste it into the same location, and rename to `.env` file
 4. `docker compose up -d`
-5. Open [http://localhost:3000](http://localhost:3000)
+5. Open [https://flowise-sharpbot-ui-git-main-stagging.vercel.app](https://flowise-sharpbot-ui-git-main-stagging.vercel.app)
 6. You can bring the containers down by `docker compose stop`
 
 ### Docker Image
@@ -123,7 +123,7 @@ Flowise has 3 different modules in a single mono repository.
     pnpm start
     ```
 
-    You can now access the app on [http://localhost:3000](http://localhost:3000)
+    You can now access the app on [https://flowise-sharpbot-ui-git-main-stagging.vercel.app](https://flowise-sharpbot-ui-git-main-stagging.vercel.app)
 
 6.  For development build:
 

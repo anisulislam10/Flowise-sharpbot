@@ -80,7 +80,7 @@ Flowise has 3 different modules in a single mono repository.
     pnpm build
     ```
 
-8. Start the app on [http://localhost:3000](http://localhost:3000)
+8. Start the app on [https://flowise-sharpbot-ui-git-main-stagging.vercel.app](https://flowise-sharpbot-ui-git-main-stagging.vercel.app)
 
     ```bash
     pnpm start

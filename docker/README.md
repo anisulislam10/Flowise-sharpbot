@@ -6,7 +6,7 @@ Starts Flowise from [DockerHub Image](https://hub.docker.com/r/flowiseai/flowise
 
 1. Create `.env` file and specify the `PORT` (refer to `.env.example`)
 2. `docker compose up -d`
-3. Open [http://localhost:3000](http://localhost:3000)
+3. Open [https://flowise-sharpbot-ui-git-main-stagging.vercel.app](https://flowise-sharpbot-ui-git-main-stagging.vercel.app)
 4. You can bring the containers down by `docker compose stop`
 
 ## 🔒 Authentication
@@ -20,7 +20,7 @@ Starts Flowise from [DockerHub Image](https://hub.docker.com/r/flowiseai/flowise
         - FLOWISE_PASSWORD=${FLOWISE_PASSWORD}
     ```
 3. `docker compose up -d`
-4. Open [http://localhost:3000](http://localhost:3000)
+4. Open [https://flowise-sharpbot-ui-git-main-stagging.vercel.app](https://flowise-sharpbot-ui-git-main-stagging.vercel.app)
 5. You can bring the containers down by `docker compose stop`
 
 ## 🌱 Env Variables

@@ -44,6 +44,6 @@ jobs:
                   install: false
                   working-directory: packages/server
                   start: pnpm start
-                  wait-on: 'http://localhost:3000'
+                  wait-on: 'https://flowise-sharpbot-ui-git-main-stagging.vercel.app'
                   wait-on-timeout: 120
                   browser: chrome

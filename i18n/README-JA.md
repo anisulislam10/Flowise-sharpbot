@@ -36,7 +36,7 @@
     npx flowise start --FLOWISE_USERNAME=user --FLOWISE_PASSWORD=1234
     ```
 
-3. [http://localhost:3000](http://localhost:3000) を開く
+3. [https://flowise-sharpbot-ui-git-main-stagging.vercel.app](https://flowise-sharpbot-ui-git-main-stagging.vercel.app) を開く
 
 ## 🐳 Docker
 
@@ -45,7 +45,7 @@
 1. プロジェクトのルートにある `docker` フォルダに移動する
 2. `.env.example` ファイルをコピーして同じ場所に貼り付け、名前を `.env` に変更する
 3. `docker compose up -d`
-4. [http://localhost:3000](http://localhost:3000) を開く
+4. [https://flowise-sharpbot-ui-git-main-stagging.vercel.app](https://flowise-sharpbot-ui-git-main-stagging.vercel.app) を開く
 5. コンテナを停止するには、`docker compose stop` を使用します
 
 ### Docker Image
@@ -112,7 +112,7 @@ Flowise には、3 つの異なるモジュールが 1 つの mono リポジト�
     pnpm start
     ```
 
-    [http://localhost:3000](http://localhost:3000) でアプリにアクセスできるようになりました
+    [https://flowise-sharpbot-ui-git-main-stagging.vercel.app](https://flowise-sharpbot-ui-git-main-stagging.vercel.app) でアプリにアクセスできるようになりました
 
 6. 開発用ビルド:
 

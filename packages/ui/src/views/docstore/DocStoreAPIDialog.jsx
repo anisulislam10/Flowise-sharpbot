@@ -29,7 +29,7 @@ const DocStoreAPIDialog = ({ show, dialogProps, onCancel }) => {
 import requests
 import json
 
-API_URL = "http://localhost:3000/api/v1/document-store/upsert/${dialogProps.storeId}"
+API_URL = "https://flowise-sharpbot-ui-git-main-stagging.vercel.app/api/v1/document-store/upsert/${dialogProps.storeId}"
 API_KEY = "your_api_key_here"
 
 # use form data to upload files
@@ -84,7 +84,7 @@ formData.append("createNewDocStore", "false");
 
 async function query(formData) {
     const response = await fetch(
-        "http://localhost:3000/api/v1/document-store/upsert/${dialogProps.storeId}",
+        "https://flowise-sharpbot-ui-git-main-stagging.vercel.app/api/v1/document-store/upsert/${dialogProps.storeId}",
         {
             method: "POST",
             headers: {
@@ -103,7 +103,7 @@ query(formData).then((response) => {
 \`\`\`
 
 \`\`\`bash
-curl -X POST http://localhost:3000/api/v1/document-store/upsert/${dialogProps.storeId} \\
+curl -X POST https://flowise-sharpbot-ui-git-main-stagging.vercel.app/api/v1/document-store/upsert/${dialogProps.storeId} \\
   -H "Authorization: Bearer <your_api_key_here>" \\
   -F "files=@<file-path>" \\
   -F "docId=${dialogProps.loaderId}" \\
@@ -127,7 +127,7 @@ curl -X POST http://localhost:3000/api/v1/document-store/upsert/${dialogProps.st
 \`\`\`python
 import requests
 
-API_URL = "http://localhost:3000/api/v1/document-store/upsert/${dialogProps.storeId}"
+API_URL = "https://flowise-sharpbot-ui-git-main-stagging.vercel.app/api/v1/document-store/upsert/${dialogProps.storeId}"
 API_KEY = "your_api_key_here"
 
 headers = {
@@ -165,7 +165,7 @@ print(output)
 \`\`\`javascript
 async function query(data) {
     const response = await fetch(
-        "http://localhost:3000/api/v1/document-store/upsert/${dialogProps.storeId}",
+        "https://flowise-sharpbot-ui-git-main-stagging.vercel.app/api/v1/document-store/upsert/${dialogProps.storeId}",
         {
             method: "POST",
             headers: {
@@ -205,7 +205,7 @@ query({
 \`\`\`
 
 \`\`\`bash
-curl -X POST http://localhost:3000/api/v1/document-store/upsert/${dialogProps.storeId} \\
+curl -X POST https://flowise-sharpbot-ui-git-main-stagging.vercel.app/api/v1/document-store/upsert/${dialogProps.storeId} \\
   -H "Content-Type: application/json" \\
   -H "Authorization: Bearer <your_api_key_here>" \\
   -d '{

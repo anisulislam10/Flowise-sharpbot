@@ -23,7 +23,7 @@ const swaggerUiOptions = {
         },
         servers: [
             {
-                url: 'http://localhost:3000/api/v1',
+                url: 'https://flowise-sharpbot-ui-git-main-stagging.vercel.app/api/v1',
                 description: 'Flowise Server'
             }
         ]

@@ -80,7 +80,7 @@ Flowise 在一个单一的单体存储库中有 3 个不同的模块。
     pnpm build
     ```
 
-8. 在[http://localhost:3000](http://localhost:3000)上启动应用程序
+8. 在[https://flowise-sharpbot-ui-git-main-stagging.vercel.app](https://flowise-sharpbot-ui-git-main-stagging.vercel.app)上启动应用程序
 
     ```bash
     pnpm start

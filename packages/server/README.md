@@ -20,7 +20,7 @@ Drag & drop UI to build your customized LLM flow
     npx flowise start
     ```
 
-3. Open [http://localhost:3000](http://localhost:3000)
+3. Open [https://flowise-sharpbot-ui-git-main-stagging.vercel.app](https://flowise-sharpbot-ui-git-main-stagging.vercel.app)
 
 ## 🔒 Authentication
 

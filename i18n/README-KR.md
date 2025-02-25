@@ -36,7 +36,7 @@
     npx flowise start --FLOWISE_USERNAME=user --FLOWISE_PASSWORD=1234
     ```
 
-3. [http://localhost:3000](http://localhost:3000) URL 열기
+3. [https://flowise-sharpbot-ui-git-main-stagging.vercel.app](https://flowise-sharpbot-ui-git-main-stagging.vercel.app) URL 열기
 
 ## 🐳 도커(Docker)를 활용하여 시작하기
 
@@ -45,7 +45,7 @@
 1. 프로젝트의 최상위(root) 디렉토리에 있는 `docker` 폴더로 이동하세요.
 2. `.env.example` 파일을 복사한 후, 같은 경로에 붙여넣기 한 다음, `.env`로 이름을 변경합니다.
 3. `docker compose up -d` 실행
-4. [http://localhost:3000](http://localhost:3000) URL 열기
+4. [https://flowise-sharpbot-ui-git-main-stagging.vercel.app](https://flowise-sharpbot-ui-git-main-stagging.vercel.app) URL 열기
 5. `docker compose stop` 명령어를 통해 컨테이너를 종료시킬 수 있습니다.
 
 ### 도커 이미지 활용
@@ -112,7 +112,7 @@ Flowise는 단일 리포지토리에 3개의 서로 다른 모듈이 있습니�
     pnpm start
     ```
 
-    이제 [http://localhost:3000](http://localhost:3000)에서 애플리케이션에 접속할 수 있습니다.
+    이제 [https://flowise-sharpbot-ui-git-main-stagging.vercel.app](https://flowise-sharpbot-ui-git-main-stagging.vercel.app)에서 애플리케이션에 접속할 수 있습니다.
 
 6. 개발 환경에서 빌드할 경우:
 

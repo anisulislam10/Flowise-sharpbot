@@ -77,7 +77,7 @@ class ChatflowTool_Tools implements INode {
                 type: 'string',
                 description:
                     'Base URL to Flowise. By default, it is the URL of the incoming request. Useful when you need to execute the Chatflow through an alternative route.',
-                placeholder: 'http://localhost:3000',
+                placeholder: 'https://flowise-sharpbot-ui-git-main-stagging.vercel.app',
                 optional: true,
                 additionalParams: true
             },
@@ -199,7 +199,7 @@ class ChatflowTool extends StructuredTool {
 
     startNewSession = false
 
-    baseURL = 'http://localhost:3000'
+    baseURL = 'https://flowise-sharpbot-ui-git-main-stagging.vercel.app'
 
     headers = {}
 

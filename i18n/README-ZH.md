@@ -36,7 +36,7 @@
     npx flowise start --FLOWISE_USERNAME=user --FLOWISE_PASSWORD=1234
     ```
 
-3. 打开 [http://localhost:3000](http://localhost:3000)
+3. 打开 [https://flowise-sharpbot-ui-git-main-stagging.vercel.app](https://flowise-sharpbot-ui-git-main-stagging.vercel.app)
 
 ## 🐳 Docker
 
@@ -45,7 +45,7 @@
 1. 进入项目根目录下的 `docker` 文件夹
 2. 创建 `.env` 文件并指定 `PORT`（参考 `.env.example`）
 3. 运行 `docker compose up -d`
-4. 打开 [http://localhost:3000](http://localhost:3000)
+4. 打开 [https://flowise-sharpbot-ui-git-main-stagging.vercel.app](https://flowise-sharpbot-ui-git-main-stagging.vercel.app)
 5. 可以通过 `docker compose stop` 停止容器
 
 ### Docker 镜像
@@ -112,7 +112,7 @@ Flowise 在一个单一的代码库中有 3 个不同的模块。
     pnpm start
     ```
 
-    现在可以在 [http://localhost:3000](http://localhost:3000) 访问应用
+    现在可以在 [https://flowise-sharpbot-ui-git-main-stagging.vercel.app](https://flowise-sharpbot-ui-git-main-stagging.vercel.app) 访问应用
 
 6. 用于开发构建：
 
